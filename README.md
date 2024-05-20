@@ -1,4 +1,3 @@
-```markdown
 # Parallel Corpora Scraper
 
 ## Overview
