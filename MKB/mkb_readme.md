@@ -1,5 +1,5 @@
 # Mann Ki Baat (MKB)
-Developed a sophisticated web scraper utilizing Selenium WebDriver to systematically gather content from the Mann Ki Baat (MKB) website. This dynamic scraper adeptly navigates through article links, selects content across 14 languages from dropdown menus, and handles various web page interactions, ensuring the comprehensive acquisition of diverse data.
+Developed a sophisticated web scraper utilizing Selenium WebDriver to systematically gather content from the [Mann Ki Baat (MKB)](https://www.pmindia.gov.in/en/mann-ki-baat/) website. This dynamic scraper adeptly navigates through article links, selects content across 14 languages from dropdown menus, and handles various web page interactions, ensuring the comprehensive acquisition of diverse data.
 
 Implemented robust logic to extract essential metadata from each webpage, including article titles, video URLs, and complete article texts. This organized data, categorized by language, facilitates structured and accessible data analysis, simplifies downstream processing, and enables detailed comparative linguistic analysis for generating high-quality parallel datasets.
 
