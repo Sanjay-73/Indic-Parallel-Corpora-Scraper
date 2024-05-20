@@ -11,6 +11,4 @@ The structure of the data stored in our JSON files has been meticulously designe
 - **lang_list**: A list of languages in which the text content is available.
 - **data**: Language-specific text content.
 - **meta_data**: Additional language-specific attributes that may include annotations or contextual information.
-
-This README file includes all necessary sections for a GitHub repository, providing clear instructions for setting up, using, and contributing to the project. Adjust the content to fit the specific details and configurations of your scraper as needed.
  
