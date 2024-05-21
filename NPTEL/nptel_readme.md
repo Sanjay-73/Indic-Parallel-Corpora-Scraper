@@ -1,0 +1,9 @@
+# NPTEL Books
+
+[NPTEL Books](https://sites.google.com/nptel.iitm.ac.in/books/home?authuser=0) represents an extensive repository of academic textbooks translated into various Indian languages. The collection has undergone a scraping process to capture PDF versions of these textbooks. The original scraping strategy, however, did not incorporate parallel curation principles, resulting in the PDF files being named (for instance, 1.pdf, 2.pdf, ...) and sorted in ascending order according to their Google Drive URLs as found on the website. The primary goal moving forward was to code a parallel mapping system for these PDFs to enhance the accessibility and organization of the collection, ensuring a more structured and efficient retrieval process for users seeking information in different languages.
+
+I coded a Selenium script to automate the extraction of book titles and Google Drive URLs from the NPTEL Books collection, aiming for improved organization. The script's key functionality includes navigating the website to fetch these details, sorting the books by the ascending order of their Google Drive URLs, and renaming the PDF files numerically (e.g., 1.pdf, 2.pdf, ...) to reflect their sorted order.
+
+I combined .csv files from two sources: one detailing PDF identifiers and paths, and another with data scraped from a website, into a unified csv. This consolidated file aligns PDF numbers with specific file paths and incorporates text extracted via OCR, creating parallel mappings of the same book in different languages.
+
+Many duplicate book names resulted from slight variations in titles. To address this, I normalized all titles by converting them to lowercase and removing common words. Despite these normalization efforts, duplicate entries persisted, requiring to manually go through and merge duplicate entries into one.
